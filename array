@@ -1,0 +1,12 @@
+<?php
+$coche = ["a1","a2","a3","a4"];
+
+echo "<table border='2px'>";
+echo "<tr><th>modelos</th></tr>";
+
+foreach($coche as $modelo){
+    echo "<tr><td>" . $modelo . "</td></tr>";
+}
+echo "</table>";
+?>
+
