@@ -1,0 +1,37 @@
+<?php
+
+/* ///////////////////////////////////// BUCLES  /////////////////////////////////////
+for ($counter= 0; $counter < 10; $counter++){
+
+    echo $counter; 
+}
+
+/////////////////////////////////////
+for (;;){
+    echo "infinito";
+}
+
+//////////////////////////////////////
+for ($counter= 0; $counter < 10; $counter= $counter +2){
+
+    echo $counter; 
+}
+
+///////////////////////////////////// Funciones /////////////////////////////////////
+ /funcion de suma 
+function suma ($num1, $num2){
+    return $num1 + $num2 ;
+
+}
+/////////////////////////////////////
+$total = suma(1,2);
+echo $total
+/
+/////////////////////////////////////
+/ funcion que junta dos cosas 
+function concatenar ($palabra1, $palabra2){
+    return $palabra1.$palabra2; 
+}
+echo concatenar ("hola", " Julian");
+*/
+?>
